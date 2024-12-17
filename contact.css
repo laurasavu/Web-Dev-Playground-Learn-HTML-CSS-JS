@@ -1,0 +1,39 @@
+header h1{
+    left: 45%;
+    top: 60%;
+    white-space: nowrap;
+}
+
+
+fieldset {
+    border-color: #0000ff;
+    padding: 1em;
+    margin: 1em 0;
+  }
+  
+  
+  form {
+    display: grid;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  
+  form textarea {
+    resize: vertical;
+  }
+  
+  form button {
+    font-size: 2rem;
+    color: var 0000ff;
+    border: 0.1em solid #0000ff;
+    border-radius: 0.25em;
+    padding: 0.25em 0.75em;
+    justify-self: center;
+  }
+  
+  form button:hover {
+    cursor: pointer;
+    background-color:#0000ff;
+    color: #fff;
+  }
+  
