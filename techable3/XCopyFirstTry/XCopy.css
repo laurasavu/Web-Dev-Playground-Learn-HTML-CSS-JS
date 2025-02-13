@@ -17,17 +17,19 @@ body {
 }
 .right-side {
     flex: 1;
-    padding: 40px;
+    padding: 10px;
+   
 }
 .x-logo {
     font-size: 48px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .heading {
-    font-size: 64px;
-    margin-bottom: 32px;
+   font-size: 32px;
+    margin-bottom: 12px;
 }
 .login-buttons {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -46,4 +48,17 @@ body {
 .login {
     border: 1px solid rgb(83, 100, 113);
     color: rgb(29, 155, 240);
+}
+.info{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: rgb(83, 100, 113);
+}
+.button login {
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    max-width: 300px;
 }
