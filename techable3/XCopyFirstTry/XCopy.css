@@ -5,29 +5,41 @@ body {
     background-color: black;
     color: white;
 }
-.container {
+.cstm-container{
     display: flex;
-    min-height: 100vh;
+  
+    margin-right: 20px;
 }
-.left-side {
-    flex: 1;
+.left-side{
+   padding: 20px;
+   margin: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .right-side {
     flex: 1;
-    padding: 40px;
+    padding: 10px;
+   
 }
 .x-logo {
     font-size: 48px;
     margin-bottom: 40px;
+    margin-top: 20px;
 }
 .heading {
-    font-size: 64px;
-    margin-bottom: 32px;
+   font-size: 45px;
+    margin-bottom: 12px;
 }
 .login-buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+}
+.createAccount-buttons{
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -46,4 +58,40 @@ body {
 .login {
     border: 1px solid rgb(83, 100, 113);
     color: rgb(29, 155, 240);
+}
+.info{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: rgb(83, 100, 113);
+    max-width: 300px;
+}
+.button login {
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    max-width: 300px;
+}
+.login-box{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+}
+footer {
+    position:fixed;
+   
+}
+
+nav ul {
+    list-style: none;
+}
+
+
+
+nav ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
