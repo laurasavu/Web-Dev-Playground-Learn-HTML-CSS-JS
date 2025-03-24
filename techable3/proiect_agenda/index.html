@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Telefonică</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Agenda</h1>
+    <div class="form-container">
+        <label for="name">Nume:</label>
+        <input type="text" id="name">
+        <label for="phone">Telefon:</label>
+        <input type="text" id="phone" onkeypress="handleKeyPress(event)">
+        <button id="add-btn">ADAUGĂ CONTACT</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Nume</th>
+                <th>Telefon</th>
+                <th>Modifică</th>
+                <th>Șterge</th>
+            </tr>
+        </thead>
+        <tbody id="contact-list"></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
