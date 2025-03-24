@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalog de Note</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="lista_elevi_wrapper">
+      <h1>Lista Elevi</h1>
+      <div id="formular_elevi">
+        <input type="text" id="nume_elev" placeholder="Nume elev" />
+        <button id="adauga_elev">Adaugă</button>
+      </div>
+      <table id="tabel_elevi">
+        <thead>
+          <tr>
+            <th>Nume Elev</th>
+            <th>Media Notelor</th>
+            <th>Acțiuni</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div id="sort_buttons">
+        <button id="sorteaza_asc">Sortare Ascendentă</button>
+        <button id="sorteaza_desc">Sortare Descendentă</button>
+      </div>
+    </div>
+
+    <div id="note_elev_wrapper" style="display: none">
+      <button id="ascunde_note">Ascunde Notele</button>
+      <h2 id="nume_selectat"></h2>
+      <div id="formular_note">
+        <input type="number" id="valoare_nota" placeholder="Adaugă notă" />
+        <button id="adauga_nota">Adaugă Notă</button>
+      </div>
+      <table id="tabel_note">
+        <thead>
+          <tr>
+            <th>Notă</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div id="sort_note_buttons">
+        <button id="sorteaza_note_asc">Sortare Ascendentă</button>
+        <button id="sorteaza_note_desc">Sortare Descendentă</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
